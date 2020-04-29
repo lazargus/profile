@@ -1,0 +1,97 @@
+@import url("https://fontawesome.com/");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500&display=swap');
+
+body {
+  background-color:#fbfbfb;
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: roboto;
+  color: #464698;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: roboto;
+}
+
+p {
+  font-family: montserrat;
+}
+
+h3 {
+  font-size: 15px;
+  font-family: roboto;
+  color: #1089bf;
+}
+
+a {
+  color:#3434a9;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.container {
+  width: 700px;
+  margin: 20px auto;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);
+  margin: 10px auto;
+}
+
+#footer {
+  padding: 5px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 60px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn {
+  background-color: #6B72E1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+}
+
+.btn:hover {
+  background-color:#3668f3;
+}
+
+.fab:hover {
+  color: #d6d5d6;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
